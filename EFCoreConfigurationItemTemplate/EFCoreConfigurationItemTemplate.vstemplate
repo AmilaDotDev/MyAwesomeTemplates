@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>EFCoreConfigurationItemTemplate</Name>
+    <Description>EFCoreConfigurationItemTemplate</Description>
+    <Icon>EFCoreConfigurationItemTemplate.ico</Icon>
+    <TemplateID>c9312f44-9e4e-4e36-9ccd-9414f6c17360</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Class.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>EFCoreConfigurationItemTemplate, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=token</Assembly>
+    <FullClassName>EFCoreConfigurationItemTemplate.CustomWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>
